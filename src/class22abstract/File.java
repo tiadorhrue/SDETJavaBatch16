@@ -4,6 +4,8 @@ public abstract class File {
     private String nameOfFile;
     private int sizeOfFile;
 
+
+
     File (String nameOfFile, int sizeOfFile){
         this.nameOfFile=nameOfFile;
         this.sizeOfFile=sizeOfFile;
