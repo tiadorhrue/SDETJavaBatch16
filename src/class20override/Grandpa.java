@@ -13,7 +13,7 @@ class Child extends Father{
     }
 }
 class Tester{
-    public static void main(String[] args) {
+    public static void main(String args []) {
         Child ch=new Child();
         ch.printMoney();
     }
