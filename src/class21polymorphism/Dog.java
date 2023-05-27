@@ -15,7 +15,8 @@ public class Dog extends Animal {
 class Cat extends Dog{
 
     public Cat(String name, String color, String breed) {
-        super(name, color, breed);
+        super(name,color, breed);
+
     }
 }
 class Horse extends Cat{
